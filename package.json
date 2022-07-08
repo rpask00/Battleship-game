@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "ionic-run": "ionic capacitor run android --project=\"battleship\"\n",
-    "build": "ng build",
+    "build": "ionic capacitor run android --project=\"battleship\"\n",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
