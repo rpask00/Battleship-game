@@ -11,6 +11,7 @@ import { EnemyAreaComponent } from './battlefield/enemy-area/enemy-area.componen
 import { InvitePopUpComponent } from './splash-screen/invite-pop-up/invite-pop-up.component';
 import { EnemyFieldComponent } from './battlefield/enemy-area/enemy-field/enemy-field.component';
 import { GameOverPopupComponent } from './game-over-popup/game-over-popup.component';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { GameOverPopupComponent } from './game-over-popup/game-over-popup.compon
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IonicModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

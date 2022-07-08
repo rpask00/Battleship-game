@@ -2,6 +2,11 @@
 
 # compiled output
 /dist
+/www
+/plugins
+/platforms
+/resources
+/android
 /tmp
 /out-tsc
 # Only exists if Bazel was run
